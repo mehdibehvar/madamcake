@@ -1,0 +1,35 @@
+.navbar_section{
+    top:59px;
+    @media screen and (max-width:576px) {
+        top:48px;
+  
+    }
+    .hamburguer_menu{
+        .line{
+            width: 15px;
+          
+        }
+    }
+.navigation{
+    .link_list{
+        .active{
+            border-bottom: 0.5px solid #BABABA;
+        }
+    }
+};
+.buttons_wrapper{
+    gap: 26px;
+    .basket{
+        border: 1px solid rgba(151, 151, 151, 0.195012);
+        width: 55px;
+        height: 55px;
+    };
+    .login_register{
+        padding: 16px 20px;
+    }
+    .register{
+        padding: 10px 24px;
+
+    }
+}
+}

@@ -1,0 +1,21 @@
+.course_card{
+    width: fit-content;
+    gap: 20px;
+    padding-bottom: 30px;
+    .details{
+      gap: 20px;
+      padding-left: 27px;
+      padding-right: 27px;
+        .dashed_price_wrapper{
+            border: 0.5px dashed #BABABA;
+            border-radius: 50px;
+        };
+        .button_wrapper{
+            button{
+                padding: 15px 75px;
+            }
+        }
+    };
+  
+   
+}

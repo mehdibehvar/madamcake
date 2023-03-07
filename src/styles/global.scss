@@ -1,0 +1,36 @@
+@import "_custom.scss";
+@font-face {
+  font-family:"Yekan Bakh";
+  src:url("../../public/assets/fonts/Yekan.woff") format("woff"),
+        url("../../public/assets/fonts/Yekan.eot") format("eot");
+  font-weight:500;
+  font-style: normal;
+};
+@font-face {
+  font-family:"Doran";
+  src:url("../../public/assets/fonts/B Doran.ttf") format("ttf");
+  font-weight:500;
+  font-style: normal;
+}
+body {
+    font-family:"Yekan Bakh";
+    font-weight:500;
+background-color: #F0F0F0;
+overflow-x: hidden;
+  }
+  
+  a{
+    text-decoration: none;
+    color: $white;
+  }
+  li{
+    list-style: none;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+ 
+  };
+  *h1,h2,h3,h4,h5,h6{
+    font-family:"Doran";
+  }

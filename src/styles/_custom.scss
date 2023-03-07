@@ -1,0 +1,98 @@
+$white: #ffffff;
+$primary:  #FFB000;////primary-50
+$primary-75:  #CE9414;////primary-75
+$secondary: #62615e;///gray-75
+$secondary-50: #BABABA;///gray-50
+$secondary-25: #838282;///gray-25
+$info:#0090B4;
+$violet:#B9A7FF;
+$pink:#FF89AE;
+$black:#000000;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+$custom-colors: (
+  "custom-color": #900,
+  "accent":#0090B4,
+  "primary-25":#FBCE6C
+);
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+/* finally, import Bootstrap to set the changes! */
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "bootstrap";
+////custom-font-size/////////
+.fs-11 {
+  font-size: 11px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-34{
+  font-size: 34px;
+};
+.fs-22{
+  font-size: 22px;
+}
+.fs-26{
+  font-size: 26px;
+}
+.fs-29{
+  font-size: 29px;
+}
+.border-test{
+  border: 1px solid red;
+}
+/////sizing/////
+.w-1{
+  width: 1px;
+}
+/////////colors/////////
+.text-primary-25{
+  color: #FBCE6C;
+}
+.text-secondary-25{
+  color: $secondary-25;
+}
+.text-secondary-50{
+  color: $secondary-50;
+}
+.text-primary-75{
+  color: $primary-75;
+}
+.bg-primary-25{
+  background-color: #FBCE6C;
+}
+.bg-secondary-50{
+  background-color: $secondary-50;
+}
+.bg-violet{
+background-color: $violet;
+};
+.bg-pink{
+  background-color: $pink;
+};
+
+/////utils//////////
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.border-pink-3{
+  border: 3px solid #FF89AE;
+};
+.border-primary-3{
+  border: 3px solid $primary-75;
+}
+.border-cyan-1{
+  border: 1px solid #84CADB;
+}
+.me-165{
+  margin-left: 165px;
+}

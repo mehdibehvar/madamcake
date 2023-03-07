@@ -1,0 +1,41 @@
+.consulte_section{
+    margin-top: 213px;
+ margin-right: 150px;
+    margin-left: 164px;
+    height: 523px;
+    .bgImage_wrapper{
+         bottom: -43px;
+         z-index: 2;
+         height: 523px;
+         right: 0;
+   .consulte_form{
+    width: 440px;
+    height: 417px;
+    margin-top: 57px;
+    margin-right: 53px;
+    input{
+        height: 60px;
+        width: 276px;
+    }
+   }
+    };
+    @media screen and (max-width:576px) {
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-top: 128px;
+        margin-right: 0px;
+        height: 390px;
+        .bgImage_wrapper{
+            height: 390px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            bottom:0;
+            .consulte_form{
+                width: 329px;
+height: 311px;
+margin: 0;
+            }
+        }
+    }
+}

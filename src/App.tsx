@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AllCoursesSection from "./components/allcoursessection/AllCoursesSection";
+import CategorySection from "./components/categorysection/CategorySection";
+import Layout from "./components/layout";
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import LatestCourses from "./components/latestcourses/LatestCourses";
+import CofeeShopSection from "./components/coffeshopsection/CofeeShopSection";
+import ArticlesSection from "./components/articlessection/ArticlesSection";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<Layout>
+  <CategorySection/>
+  <AllCoursesSection/>
+  <LatestCourses/>
+  <CofeeShopSection/>
+  <ArticlesSection/>
+  
+</Layout>
   );
 }
 

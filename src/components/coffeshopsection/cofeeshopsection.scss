@@ -1,0 +1,21 @@
+.cofeeshop_section {
+  margin-top: 370px;
+  padding-right: 150px;
+ 
+  .header {
+    .left{
+        margin-left: 165px;
+    }
+  };
+  @media screen and (max-width:576px) {
+    padding-right: 22px;
+    margin-top: 187px;
+    .header{
+        .left{
+            margin-left: 27px;
+        }
+     
+     };
+
+}
+}
