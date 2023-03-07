@@ -68,7 +68,7 @@ const AllCoursesSection = () => {
       spaceBetween={30}
       slidesPerView={4}
     //   onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+      // onSlideChange={() => console.log('slide change')}
       className="d-none d-sm-block"
     >
     
@@ -80,7 +80,7 @@ const AllCoursesSection = () => {
       spaceBetween={-27}
       slidesPerView={1}
     //   onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+      // onSlideChange={() => console.log('slide change')}
       className="d-block d-sm-none"
     >
     

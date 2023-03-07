@@ -73,7 +73,7 @@ const ArticlesSection = () => {
           spaceBetween={30}
           slidesPerView={1}
           //   onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
+          // onSlideChange={() => console.log("slide change")}
           className="d-block d-sm-none"
         >
           {articleData.map((item, index) => (

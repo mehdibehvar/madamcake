@@ -74,7 +74,7 @@ const LatestCourses = () => {
             spaceBetween={30}
             slidesPerView={4}
             //   onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log("slide change")}
+            // onSlideChange={() => console.log("slide change")}
             className="d-none d-sm-block"
           >
             {cardsData.map((item, index) => (
@@ -93,7 +93,7 @@ const LatestCourses = () => {
             spaceBetween={30}
             slidesPerView={1}
             //   onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log("slide change")}
+            // onSlideChange={() => console.log("slide change")}
             className="d-block d-sm-none"
           >
             {cardsData.map((item, index) => (

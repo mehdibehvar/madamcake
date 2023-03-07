@@ -40,8 +40,8 @@ const HeroDescription = () => {
             </div>
           </div>
         </section>
-        <section className="left m-1 d-flex justify-content-start text-white w-100 position-relative">
-          <div className="image_wrapper position-absolute ">
+        <section className="left  d-flex justify-content-sm-start justify-content-center text-white w-100 position-relative">
+          <div className="image_wrapper position-absolute  ">
             <div className="yellow_top_rec d-none d-sm-block bg-primary position-absolute"></div>
             <img
               src="assets/images/Mask group.png"
